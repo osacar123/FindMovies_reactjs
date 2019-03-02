@@ -1,0 +1,76 @@
+.container_header{
+	color:#d6f442;
+	display: grid;
+	height: 100vh;
+	background: #536683;
+	grid-template-rows: 15vh 75vh;
+	 font-family: Arial,sans-serif;
+  
+	
+}
+.container_header h1{
+
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
+
+
+.container_search{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	
+
+	
+
+
+
+}
+.move_header{
+
+	animation-name:'read_films';
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	grid-template-rows: 15vh;
+	grid-template-columns:50vw 50vw;
+	
+
+}
+
+
+@keyframes 'read_films'{
+	0%{
+		height: 100vh;
+		translate:(100px,100px);
+
+
+	}
+	100%{
+		height: 20vh;
+		translate:(200px,200px);
+	
+
+	}
+
+}
+.poster{
+	color:red;
+	max-width: 200px;
+}
+.find_t{
+
+	color:red;
+	padding: 10px;
+	visibility: hidden;
+
+}
+.not_find_active{
+	visibility: visible;
+}
+
+
+
+

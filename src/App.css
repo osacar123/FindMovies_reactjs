@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+.body{
+
+
+}
+
+.overlay{
+  background: rgba(0,0,0,.8);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  
+  opacity: 0;
+  
+  
+
+}
+.overlay_active{
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+  
+
+ 
+  
+
+}
+.modal_poster{
+
+  width: 500px;
+  background: white;
+    animation: none;
+  
+  border-radius: 12px;
+  text-align: center;
+  padding: 5px;
+
+
+}
+.animation_in{
+animation: animation_modal_in 2s forwards;
+
+}
+@keyframes animation_moda_in{
+  0%{
+    transform: translatey(-3000px);
+
+  }
+50%{
+transform: translatey(25vh);
+
+}
+100%{
+transform: translatey(30vh);
+}
+
+
+}
+.image_modal{
+
+  color:red;
+}
