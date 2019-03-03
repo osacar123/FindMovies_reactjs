@@ -32,3 +32,33 @@
 
 }
 
+@media screen and (max-width: 750px){
+	.container_header h1{
+		font-size: 1em;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+.container_posters{
+ grid-template-columns: 45vw 45vw;
+ padding-left: 10vw;
+}
+
+
+}
+@media screen and (max-width: 500px){
+	.container_header h1{
+		font-size: 1em;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+.container_posters{
+ grid-template-columns: 75vw;
+ padding-left: 10vw;
+}
+
+
+}
+
+
